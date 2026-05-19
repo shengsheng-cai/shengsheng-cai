@@ -17,11 +17,6 @@ Backend Engineer (FastAPI) | Test Automation | Applied AI Integration
 - AI 諮詢（Gemini + RAG）→ 排程確認 → 治具借出 → 報告下載，三模組全自動聯動
 - **140 automated tests（129 pytest + 11 vitest）** + GitHub Actions CI/CD
 
-## 學習紀錄
-
-- **[vocational-training-notes](https://github.com/tsaishengsheng-sketch/vocational-training-notes)** — AI Agent / IoT：ESP32、MQTT、FAISS、Chroma、Multi-MCP、電腦視覺
-- **[Python-BigData-Learning](https://github.com/tsaishengsheng-sketch/Python-BigData-Learning)** — Python 資料分析 12 個練習專案
-
 ## 技術棧
 
 | | |
