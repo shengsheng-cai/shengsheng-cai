@@ -1,5 +1,7 @@
 # 蔡聖生 Jason Tsai
 
+Backend Engineer (FastAPI) | Test Automation | Applied AI Integration
+
 9 年工業可靠度驗證工程師，2024 年轉型軟體開發。  
 用「設計驗證流程」的工程師視角寫程式——不只會做功能，更懂得測試它。
 
@@ -13,7 +15,7 @@
 - ISO 17025 合規：GUM 量測不確定度（Type A/B）自動計算，輸出 PDF 報告
 - 設備校驗 & 維護排程 CRUD，校驗狀態即時監控
 - AI 諮詢（Gemini + RAG）→ 排程確認 → 治具借出 → 報告下載，三模組全自動聯動
-- **124 項 pytest 自動化測試** + GitHub Actions CI/CD
+- **140 automated tests（129 pytest + 11 vitest）** + GitHub Actions CI/CD
 
 ## 學習紀錄
 
