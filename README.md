@@ -7,7 +7,7 @@ Backend Engineer (FastAPI) | Test Automation | Applied AI Integration
 
 ## 主要作品
 
-**[DQA Lab Platform](https://github.com/tsaishengsheng-sketch/dqa-lab-platform)**  
+**[DQA Lab Platform](https://github.com/shengsheng-cai/dqa-lab-platform)**  
 環境測試實驗室管理平台 — FastAPI + React + SQLite  
 [🚀 Live Demo](https://huggingface.co/spaces/sshengsheng/dqa-lab-platform)
 
@@ -28,4 +28,4 @@ Backend Engineer (FastAPI) | Test Automation | Applied AI Integration
 
 ## 聯絡
 
-tsaishengsheng@gmail.com · [GitHub](https://github.com/tsaishengsheng-sketch)
+tsaishengsheng@gmail.com · [GitHub](https://github.com/shengsheng-cai)
