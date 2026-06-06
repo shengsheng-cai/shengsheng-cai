@@ -1,53 +1,76 @@
 # Jason Tsai 蔡聖生
 
-Backend Engineer focused on Python/FastAPI, test automation, lab automation, and applied AI integration.
+Backend Engineer (FastAPI) | Test Automation | Applied AI Integration
 
-I have 9 years of experience in industrial reliability testing and environmental validation. My current work focuses on turning lab workflows, SOP execution, testing records, and hardware-side processes into maintainable software systems.
+9 years in industrial reliability testing → software development since 2024.  
+I design software from a validation mindset: testability, traceability, and workflow correctness matter as much as features.
 
-中文：我具備 9 年工業可靠度驗證經驗，2024 年轉型軟體開發。現在主軸是 Python/FastAPI 後端、測試自動化、AI 整合，以及實驗室流程數位化。
+---
 
 ## Featured Projects
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [DQA Lab Platform](https://github.com/shengsheng-cai/dqa-lab-platform) | AI-assisted environmental test lab management, SOP execution, fixture tracking, scheduling automation, and ISO 17025-style reporting | FastAPI, React, SQLite, pytest, Vitest, Gemini RAG |
-| [ESP32 AIoT Portfolio](https://github.com/shengsheng-cai/esp32-aiot-portfolio) | Embedded / AIoT practice built from a reliability-testing background: sensors, MQTT, MicroPython, and hardware workflow thinking | ESP32, MicroPython, MQTT, OpenCV, FastAPI |
-| [Python Big Data Learning](https://github.com/shengsheng-cai/Python-BigData-Learning) | Python learning archive covering OOP, data analysis, web scraping, NumPy, Pandas, and applied projects | Python, Jupyter, Pandas, Matplotlib |
+| [DQA Lab Platform](https://github.com/shengsheng-cai/dqa-lab-platform) | AI-assisted lab management: SOP execution, fixture lifecycle, scheduling, ISO 17025-style reporting | FastAPI · React · SQLite · pytest · Gemini RAG |
+| [ESP32 AIoT Portfolio](https://github.com/shengsheng-cai/esp32-aiot-portfolio) | Embedded / AIoT practice from a reliability-testing background: sensors, MQTT, MicroPython | ESP32 · MicroPython · MQTT · OpenCV |
+| [Python Big Data Learning](https://github.com/shengsheng-cai/Python-BigData-Learning) | Python learning archive: OOP, data analysis, web scraping, Pandas / NumPy | Python · Jupyter · Pandas |
 
-## Main Project: DQA Lab Platform
+## DQA Lab Platform — highlights
 
-[DQA Lab Platform](https://github.com/shengsheng-cai/dqa-lab-platform) is an AI-assisted lab management platform for environmental reliability testing workflows.
-
-It combines my reliability testing background with backend engineering and test automation:
-
-- FastAPI + React + SQLite full-stack implementation
-- SOP execution workflow and environmental test scheduling
-- Fixture reservation, loan, return, and lifecycle tracking
-- ISO 17025-style reporting and GUM measurement uncertainty calculation
-- Gemini + RAG advisor with backend validation before database writes
-- 149 automated tests: pytest + Vitest
-- GitHub Actions CI/CD and Hugging Face Spaces live demo
-
-[Live Demo](https://huggingface.co/spaces/sshengsheng/dqa-lab-platform)
+- 149 automated tests (138 pytest + 11 Vitest) + GitHub Actions CI/CD
+- GUM-compliant measurement uncertainty (Type A/B → U, k=2), output to PDF report
+- Three-module integration: AI advisor → schedule → fixture loan/return, fully automated
+- Live Demo: [huggingface.co/spaces/sshengsheng/dqa-lab-platform](https://huggingface.co/spaces/sshengsheng/dqa-lab-platform)
 
 ## Technical Focus
 
-| Area | Tools / Experience |
+| Area | Tools |
 |---|---|
-| Backend | Python, FastAPI, SQLAlchemy, SQLite, Alembic |
-| Testing | pytest, Vitest, GitHub Actions, test automation |
-| Frontend | React, Vite, Recharts |
-| AI Integration | Gemini API, RAG, FAISS / Chroma |
-| Lab / Hardware Domain | Reliability testing, environmental validation, SOP workflow, ISO 17025-style process |
-| Embedded / AIoT | ESP32, MicroPython, MQTT, GPIO, sensors |
-
-## Background
-
-Before moving into software development, I worked for 9 years in industrial reliability testing. That background helps me design software from a validation mindset: not only building features, but also thinking about testability, traceability, workflow correctness, and operational reliability.
-
-中文補充：我的優勢不是只會寫功能，而是懂測試流程、設備限制、實驗室紀錄、標準條件與驗證邏輯，能把這些現場流程轉成可維護的系統。
+| Backend | Python · FastAPI · SQLAlchemy · Alembic · APScheduler |
+| Testing / DevOps | pytest · Vitest · GitHub Actions · Docker |
+| Frontend | React 19 · Vite · Recharts |
+| AI Integration | Gemini API · RAG (FAISS/Chroma) · ReAct Agent |
+| Lab / Hardware | Reliability Testing · Environmental Validation · ISO 17025 · ESP32 · MicroPython · MQTT |
 
 ## Contact
 
-Email: tsaishengsheng@gmail.com  
-GitHub: [github.com/shengsheng-cai](https://github.com/shengsheng-cai)
+tsaishengsheng@gmail.com · [github.com/shengsheng-cai](https://github.com/shengsheng-cai)
+
+---
+
+## 中文版
+
+9 年工業可靠度驗證工程師，2024 年轉型軟體開發。  
+用「設計驗證流程」的工程師視角寫程式：不只會做功能，更懂得測試它、追蹤它、讓流程可以被驗證。
+
+### 主要作品
+
+**[DQA Lab Platform](https://github.com/shengsheng-cai/dqa-lab-platform)**  
+環境測試實驗室管理平台 — FastAPI + React + SQLite  
+[Live Demo](https://huggingface.co/spaces/sshengsheng/dqa-lab-platform)
+
+- 5 國際測試標準（IEC 60068 / EN 50155 / IEC 61850-3 / IEC 60945 / DNV）78 條件
+- ISO 17025-style：GUM 量測不確定度（Type A/B）自動計算，輸出 PDF 報告
+- AI 諮詢（Gemini + RAG）→ 排程確認 → 治具借出 → 報告下載，三模組全自動聯動
+- 149 automated tests（138 pytest + 11 Vitest）+ GitHub Actions CI/CD
+
+### 其他作品
+
+| 專案 | 說明 | 技術 |
+|---|---|---|
+| [ESP32 AIoT Portfolio](https://github.com/shengsheng-cai/esp32-aiot-portfolio) | ESP32 / AIoT 學習作品集，連結硬體驗證背景與嵌入式練習 | ESP32 · MicroPython · MQTT · OpenCV |
+| [Python Big Data Learning](https://github.com/shengsheng-cai/Python-BigData-Learning) | Python、大數據資料分析、爬蟲、Pandas/NumPy 學習紀錄 | Python · Jupyter · Pandas |
+
+### 技術棧
+
+| | |
+|---|---|
+| **後端** | Python · FastAPI · SQLAlchemy · Alembic · APScheduler · pytest |
+| **前端** | React 19 · Vite · Recharts |
+| **AI** | Gemini API · RAG (FAISS/Chroma) · ReAct Agent |
+| **測試 / DevOps** | pytest · Vitest · GitHub Actions · Docker |
+| **硬體 / 實驗室** | Reliability Testing · Environmental Validation · ISO 17025 · ESP32 · MicroPython · MQTT |
+
+### 聯絡
+
+tsaishengsheng@gmail.com · [GitHub](https://github.com/shengsheng-cai)
