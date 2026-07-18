@@ -12,8 +12,8 @@ I use AI coding agents to accelerate implementation while remaining responsible 
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [DQA Lab Platform](https://github.com/shengsheng-cai/dqa-lab-platform) · [Live Demo](https://huggingface.co/spaces/sshengsheng/dqa-lab-platform) | Full-stack environmental test lab workflow platform and primary system under test for SW QA / test automation practice | Python · FastAPI · React · SQLite · pytest · Vitest |
-| [ESP32 AIoT Portfolio](https://github.com/shengsheng-cai/esp32-aiot-portfolio) | Embedded, device-communication, AI/ML, and computer-vision practice; hardware validation status is documented in the repository | ESP32 · MicroPython · MQTT · OpenCV |
+| [DQA Lab Platform](https://github.com/shengsheng-cai/dqa-lab-platform) · [Live Demo](https://huggingface.co/spaces/sshengsheng/dqa-lab-platform) | Full-stack environmental test lab workflow platform and primary system under test for SW QA / test automation practice; incl. a from-scratch RAG (no vector-DB framework) | Python · FastAPI · React · SQLite · pytest · Vitest |
+| [ESP32 AIoT Portfolio](https://github.com/shengsheng-cai/esp32-aiot-portfolio) | Embedded, device-communication, and AI/ML practice from a vocational-training course — including an [AI-agent lab](https://github.com/shengsheng-cai/esp32-aiot-portfolio/tree/main/practice/ai-ml/ai-agent-lab) (ReAct agent + MCP tools + FAISS/Chroma RAG). Hardware-validation status is documented in the repository | ESP32 · MicroPython · MQTT · OpenCV |
 | [Python Big Data Learning](https://github.com/shengsheng-cai/Python-BigData-Learning) | Python learning archive covering OOP, data analysis, visualization, web scraping, Pandas, and NumPy | Python · Jupyter · Pandas · NumPy |
 
 ## Current Focus and Project Tools
@@ -46,8 +46,8 @@ tsaishengsheng@gmail.com · [GitHub](https://github.com/shengsheng-cai)
 
 | 專案 | 展示內容 | 技術 |
 |---|---|---|
-| [DQA Lab Platform](https://github.com/shengsheng-cai/dqa-lab-platform) · [Live Demo](https://huggingface.co/spaces/sshengsheng/dqa-lab-platform) | 全端環境測試實驗室流程平台，同時作為 SW QA／測試自動化練習的主要受測系統 | Python · FastAPI · React · SQLite · pytest · Vitest |
-| [ESP32 AIoT Portfolio](https://github.com/shengsheng-cai/esp32-aiot-portfolio) | 嵌入式、設備通訊、AI／ML 與電腦視覺練習；真機驗證狀態記錄於專案 repo | ESP32 · MicroPython · MQTT · OpenCV |
+| [DQA Lab Platform](https://github.com/shengsheng-cai/dqa-lab-platform) · [Live Demo](https://huggingface.co/spaces/sshengsheng/dqa-lab-platform) | 全端環境測試實驗室流程平台，同時作為 SW QA／測試自動化練習的主要受測系統；內含從零手刻的 RAG（無向量資料庫框架） | Python · FastAPI · React · SQLite · pytest · Vitest |
+| [ESP32 AIoT Portfolio](https://github.com/shengsheng-cai/esp32-aiot-portfolio) | 職訓局課程的嵌入式、設備通訊與 AI／ML 練習——含一個 [AI agent lab](https://github.com/shengsheng-cai/esp32-aiot-portfolio/tree/main/practice/ai-ml/ai-agent-lab)（ReAct agent + MCP 工具 + FAISS/Chroma RAG）；真機驗證狀態記錄於專案 repo | ESP32 · MicroPython · MQTT · OpenCV |
 | [Python Big Data Learning](https://github.com/shengsheng-cai/Python-BigData-Learning) | 涵蓋 OOP、資料分析、視覺化、網路爬蟲、Pandas 與 NumPy 的 Python 學習紀錄 | Python · Jupyter · Pandas · NumPy |
 
 ### 目前重點與專案工具
